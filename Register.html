@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+    *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header {
+  background-color: transparent;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px; 
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+ul li {
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul li a:hover {
+  color: blue;
+}
+body
+{
+    font-family:"Open Sans";
+    color: #fff;
+    overflow-y: hidden;
+
+}
+section
+{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url(https://wallpaper.dog/large/20526351.jpg);
+    background-size: cover;
+    background-position: center center;
+   
+}
+.form-container
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    width: 380px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px #000;
+}
+h1
+{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.control input 
+{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: #222;
+    border: none;
+    outline: none;
+    margin: 1em 0;
+
+}
+.control input[type="submit"]
+{
+    background: crimson;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    opacity: .7;
+    transition: opacity .3s ease;
+}
+.control input[type="submit"]:hover
+{
+    opacity: 1.1;
+}
+.link
+{
+    text-align: center;
+}
+.link a
+{
+    text-decoration: none;
+    color: #fff;
+    opacity: .6;
+    transition: opacity .3s ease;
+}
+.link a:hover
+{
+    opacity: 1.1;
+}
+
+.text-center
+{
+    text-align: center;
+}
+.white{
+    background-color: #fff;
+    color: #222;
+    border: none;
+    margin: 1em 0;
+}
+* {
+            box-sizing: border-box;
+        }
+        body {
+            background-image: url(https://wallpaper.dog/large/20526351.jpg);
+            padding: 20px;
+        }
+
+        header {
+            background-color: transparent;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+
+        .logo img {
+            width: 100px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <img src="https://vvce.acm.org/Assets/logo_acm.svg" alt="Logo">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="meettheteam.html">Meet The Team</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="chapterbylaw.html">Chapter Bylaws</a></li>
+            <li><a href="Register.html">Register now</a></li>
+        </ul>
+    </nav>
+</header>
+    <section>
+        <div class="form-container">
+            <h3 class="text-center">Register</h3>
+            <form action="" method="post" class="text-center">
+                <div class="control">
+                     <label>Name:</label>
+                    <input type="text" name="username" placeholder="Enter your name">
+                </div>
+                <div class="control">
+                    <label>Email:</label> 
+                    <input type="email" name="email" placeholder="Enter your email">
+                </div>
+                <div class="control">
+                    <label>Usn:</label> 
+                    <input type="text" name="usn" placeholder="Enter your usn">
+                </div>
+                <div class="control">
+                    <label>Phone no:</label> 
+                    <input type="number" name="phno" placeholder="Enter your phone number">
+                </div>
+                <div class="control">
+               <input type="submit" name="submit" value="Register">
+               </div>
+                
+
+            </form>
+        </div>
+        </section>
+</body>
+</html>
